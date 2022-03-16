@@ -1,0 +1,49 @@
+Mmain	main.c	/^int	main(int argc, char **argv)$/
+checkargs	init.c	/^void	checkargs(int ac, char **av)$/
+die	die.c	/^void	die(char *errmsg, int errnum)$/
+draw_pixel2	draw.c	/^void	draw_pixel2(t_img *img, int x, int y, int col/
+draw_player	draw.c	/^void	draw_player(t_win *win)$/
+draw_ray	draw.c	/^void	draw_ray(t_win *win)$/
+drawmap	draw2.c	/^void	drawmap(t_win *win)$/
+ft_actualmove	draw3.c	/^void	ft_actualmove(t_win *win, int x, int y, int z/
+ft_atoi	ft_atoi.c	/^int	ft_atoi(const char *str)$/
+ft_checkmap	draw3.c	/^void	ft_checkmap(t_win *win)$/
+ft_destroy_hook	die.c	/^int	ft_destroy_hook(t_win *win)$/
+ft_die2	die.c	/^void	ft_die2(int fd, t_cub *cub, char *err)$/
+ft_dist	ray.c	/^float	ft_dist(float ax, float ay, float bx, float /
+ft_draw60	draw3.c	/^void	ft_draw60(t_win *win)$/
+ft_draw_img	draw3.c	/^int	ft_draw_img(t_win *win)$/
+ft_drawvline	draw2.c	/^void	ft_drawvline(t_win *win, float lineh, int x)$/
+ft_errmess	ft_atoi.c	/^void	ft_errmess(t_win *win, char *line, char *msg)/
+ft_free_cub	die.c	/^void	ft_free_cub(t_cub *cub)$/
+ft_gameinit	main.c	/^void	ft_gameinit(t_win *win)$/
+ft_gameinit0	main.c	/^void	ft_gameinit0(t_win *win)$/
+ft_getcolor	init.c	/^unsigned int	ft_getcolor(char *line, t_win *win)$/
+ft_getimg	draw2.c	/^t_img	*ft_getimg(t_win *win)$/
+ft_getmap	init2.c	/^int	ft_getmap(t_cub *cub, int fd, char *line)$/
+ft_getoffset	draw2.c	/^float	ft_getoffset(t_win *win, float lineh)$/
+ft_getpos	map.c	/^int	ft_getpos(t_win *win, int i, int j, int pos)$/
+ft_getrgb	init.c	/^unsigned int	ft_getrgb(t_win *win, char *line, int/
+ft_is02nswe	map.c	/^int	ft_is02nswe(char c)$/
+ft_isinmapcol	map.c	/^int	ft_isinmapcol(char **map, int j, int i, int le/
+ft_isinmaplin	map.c	/^int	ft_isinmaplin(char **map, int j, int i)$/
+ft_isnswe	map.c	/^int	ft_isnswe(char c)$/
+ft_isnum	ft_atoi.c	/^int	ft_isnum(char c)$/
+ft_isspace	ft_atoi.c	/^static int	ft_isspace(char c)$/
+ft_move	main.c	/^int	ft_move(int keycode, t_win *win)$/
+ft_raycast0	ray.c	/^void	ft_raycast0(t_win *win, float ra)$/
+ft_raycast1	ray.c	/^void	ft_raycast1(t_win *win)$/
+ft_raycast2	ray.c	/^void	ft_raycast2(t_win *win, float ra)$/
+ft_raycast3	ray.c	/^void	ft_raycast3(t_win *win, char texture)$/
+ft_register	draw2.c	/^void	ft_register(float distv, char texture, t_win /
+ft_registerinfo	init.c	/^void	ft_registerinfo(t_win *win, char *line)$/
+ft_registermap	init2.c	/^int	ft_registermap(t_win *win, char *line)$/
+ft_registersize	init2.c	/^void	ft_registersize(t_win *win, char *line)$/
+ft_rotation	main.c	/^void	ft_rotation(int keycode, t_win *win)$/
+ft_stayin	draw3.c	/^void	ft_stayin(t_win *win)$/
+ft_texture	init.c	/^void	ft_texture(t_win *win, t_img **img, char *adr/
+ft_win_destroy	die.c	/^void	ft_win_destroy(t_win *win, char *errmsg, int /
+getcub	init2.c	/^void	getcub(char *argv, t_win *win)$/
+getcub2	init2.c	/^void	getcub2(char *argv, t_win *win)$/
+getxpm	draw.c	/^void	getxpm(t_win *win, t_img **img, char *adr)$/
+mlx_get_pixel	draw.c	/^unsigned int	mlx_get_pixel(t_img *img, int x, int /
